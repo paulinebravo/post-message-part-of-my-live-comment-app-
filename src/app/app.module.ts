@@ -10,6 +10,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { PostmessagestexteditorComponent } from './postmessagestexteditor/postmessagestexteditor.component';
 import { QuillModule } from 'ngx-quill';
+import {MatIconModule} from '@angular/material/icon';
 
 
 
@@ -31,6 +32,7 @@ import { QuillModule } from 'ngx-quill';
     QuillModule,
     FormsModule,
     ReactiveFormsModule,
+    MatIconModule,
   ],
   exports: [
     MatButtonModule,
@@ -43,6 +45,7 @@ import { QuillModule } from 'ngx-quill';
     QuillModule,
     FormsModule,
     ReactiveFormsModule,
+    MatIconModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
